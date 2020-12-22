@@ -1,0 +1,237 @@
+@font-face{
+    font-family: AvenirMedium;
+    src : url('/assets/font/Avenir-Medium.ttf')
+}
+@font-face{
+    font-family: AvenirHeavy;
+    src : url('/assets/font/Avenir Heavy.ttf')
+}
+@font-face{
+    font-family: Avenirlight;
+    src : url('/assets/font/avenirltstd-light.otf')
+}
+ion-content
+{
+    --background: #000000a6;
+    position: relative;
+    --padding-start:  1.25rem;
+    --padding-end: 1.25rem;
+}
+.icon_balnco
+{
+    color: #ffffff;
+    font-size: 1.875rem;
+    position: absolute;
+    top: 1.25rem;
+    right: 0.9375rem;
+    z-index: 1;
+    cursor: pointer;
+}
+ion-card
+{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    --background: #FFFFFF;
+    margin-top: 3.75rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.8125rem;
+    padding-top: 20px;
+    padding-bottom: 0.625rem;
+    .img-logo-bottom
+    {
+        margin-bottom: 0px;
+        width: 138px;
+    }
+    .input_register
+    {
+        --background: #F7F8F7;
+        --color: #9D9D9D;
+        --placeholder-color: #9D9D9D;
+        border: 1px solid #E3E3E3;
+        border-radius: 6px;
+        font-size: 1rem;
+        --padding-top: 0.625rem;
+        --padding-bottom: 0.625rem;
+        font-family: AvenirMedium;
+        margin-bottom: 0.5rem;
+    }
+    .icon_circulo
+    {
+        position: absolute;
+        right: 0.3125rem;
+        top: 0.75rem;
+        z-index: 2;
+        width: 1.25rem;
+        height: 1.25rem;
+        border-radius: 50%;
+        border: 1px solid #EBEBEB;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .icon_interogative
+        {
+            color: #9D9D9D;
+            font-size: 0.875rem;
+        }
+    }
+    .padding_input
+    {
+        --padding-start:  0.9375rem;
+        --padding-end: 1.75rem;
+    }
+    .padding_igaules
+    {
+        --padding-start:  0.9375rem;
+        --padding-end: 0.9375rem;
+    }
+    ion-button
+    {
+      --background: #77BDF0;
+      --border-radius: 6px;
+      font-family: AvenirHeavy;
+      font-size: 1rem;
+      width: 100%;
+      margin-top: 0.9375rem;
+      --background-activated: #77BDF0;
+    }
+    ion-button:hover
+    {
+      --background: #77BDF0;
+      --volor: #FFFFFF;
+    }
+    .btn-register
+    {
+        width: 23.9%;
+        margin-left: 1.5px;
+        margin-right: 1.5px;
+        --border-radius: 6px;
+        --border-style: solid;
+        --border-width: 1px;
+        --border-color: #E3E3E3;
+        --background: #FAFAFA;
+        --background-activated: #FAFAFA;
+        margin-bottom: 0px;
+        height: 50px;
+        .img-activo
+        {
+            display: none;
+            width: 30px;
+            height: 30px;
+        }
+        .img-iguales-circle
+        {
+            width: 30px;
+            height: 30px;
+        }
+    }
+    .btn-register:hover
+    {
+        --background: #77BDF0;
+    }
+    .btn-register:hover .img-activo
+    {
+        display: block;
+    }
+    .btn-register:hover .img-desactivo
+    {
+        display: none;
+    }
+}
+.titulo_blanco
+{
+    color: #ffffff;
+    font-family: AvenirHeavy;
+}
+ion-list
+{
+    margin-bottom: 1.875rem;
+    background: transparent;
+    ion-item
+    {
+        --background: transparent;
+        --inner-padding-end: 0px;
+    }
+    ion-label
+    {
+        --color: #ffffff;
+        font-family: Avenirlight;
+        margin-left: 0.625rem;
+        font-size: 1rem;
+        margin-right: 0px;
+    }
+}
+.div_circulo
+{
+    width: 30px;
+    background-color: #ffffffab;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin-left: 44%;
+    margin-top: 0px;
+    margin-bottom: 1.25rem;
+    .icon_abajo
+    {
+        color: #ffffff;
+        font-size: 23px;
+    }
+}
+@media (min-width: 411px)
+{
+    ion-card
+    {
+        .btn-register
+        {
+            width: 24%;
+        }
+    }
+}
+@media (min-width: 480px)
+{
+    ion-card
+    {
+        .btn-register
+        {
+            width: 24.2%;
+        }
+    }
+}
+@media (min-width: 640px)
+{
+  ion-content
+  {
+    --padding-start: 7.5rem;
+    --padding-end: 7.5rem;
+  }
+  .icon_balnco
+  {
+    top: 1.25rem;
+    right: 3.125rem;
+  }
+  ion-card
+  {
+    .btn-register
+    {
+        width: 24%;
+    }
+  }
+}
+@media (min-width: 768px)
+{
+  ion-content
+  {
+    --padding-start: 12.5rem;
+    --padding-end: 12.5rem;
+  }
+}
+@media (min-width: 1024px)
+{
+  ion-content
+  {
+    --padding-start: 18.75rem;
+    --padding-end: 18.75rem;
+  }
+}

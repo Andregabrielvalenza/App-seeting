@@ -1,0 +1,228 @@
+@font-face{
+  font-family: AvenirHeavy;
+  src : url('/assets/font/Avenir Heavy.ttf')
+}
+@font-face{
+  font-family: AvenirMedium;
+  src : url('/assets/font/Avenir-Medium.ttf')
+}
+@font-face{
+  font-family: Avenirlight;
+  src : url('/assets/font/avenirltstd-light.otf')
+}
+ion-content
+{
+  --padding-start: 1.25rem;
+  --padding-end: 1.25rem;
+  --padding-top: 2.938rem;
+}
+.card-titulo
+{
+  background-color: #F5F5F5;
+  border: 1px solid #D5D5D5;
+  border-radius: 12px;
+  box-shadow: none;
+  margin: 0px;
+  text-align: center;
+  color: #333333;
+  font-size: 20px;
+  font-family: AvenirHeavy;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  margin-bottom: 7px;
+}
+.card-form
+{
+  background-color: #F5F5F5;
+  border: 1px solid #D5D5D5;
+  border-radius: 12px;
+  box-shadow: none;
+  padding: 27px 13px;
+  margin: 0px;
+  .div-item
+  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+    .label-nombre
+    {
+      color: #555555;
+      font-family: AvenirMedium;
+      font-size: 14px;
+    }
+    .label-precio
+    {
+      color: #333333;
+      font-family: AvenirHeavy;
+      font-size: 15px;
+    }
+    .label-precio-total
+    {
+      color: #333333;
+      font-family: AvenirHeavy;
+      font-size: 17px;
+    }
+  }
+  .div-linea
+  {
+    background-color: #B5B5B5;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .label-color
+  {
+    --color: #555555;
+    font-size: 14px;
+    font-family: AvenirMedium;
+    padding-left: 10px;
+  }
+  .item-campos
+  {
+    --background: #F5F5F5;
+    --padding-start: 0px;
+    --inner-padding-end: 0px;
+    margin-bottom: 19px;
+    .input-item
+    {
+      --background: #FFFFFF;
+      --color: #ADADAD;
+      border-radius: 11px;
+      border: 1px solid #EBEBEB;
+      --padding-start: 20px;
+      --padding-end: 20px;
+      --placeholder-color: #ADADAD;
+      --placeholder-font-weight: 900;
+      font-size: 14px;
+      font-family: AvenirMedium;
+    }
+  }
+}
+.div-campo
+{
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  .div-code
+  {
+    width: 115px;
+    margin-right: 1.5px;
+  }
+  .div-card
+  {
+    width: 174px;
+    margin-left: 1.5px;
+  }
+  .div-expiration
+  {
+    width: 164px;
+    margin-bottom: 19px;
+    .div-input
+    {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      .item-dia
+      {
+        width: 70px;
+        margin-right: 10px;
+      }
+      .item-mes
+      {
+        width: 70px;
+        margin-left: 10px;
+      }
+    }
+  }
+  .div-cvv2
+  {
+    width: 102px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 19px;
+    .label-cvv
+    {
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
+.div-bootom
+{
+  margin-top: 5px;
+}
+ion-button
+{
+  width: 100%;
+  --background: #77BDF0;
+  --background-activated: #77BDF0;
+  --color: #ffffff;
+  --color-activated: #ffffff;
+  font-family: AvenirHeavy;
+  --border-radius: 6px;
+  margin-top: 20px;
+}
+.p-descripcion
+{
+  color: #B2B2B2;
+  font-family: AvenirMedium;
+  margin-top: 15px;
+  margin-bottom: 80px;
+  span
+  {
+    text-decoration: underline;
+  }
+}
+@media (min-width: 411px)
+{
+  ion-content
+  {
+    --padding-start: 1.875rem;
+    --padding-end: 1.875rem;
+  }
+  .btn_next
+  {
+    margin-top: 15.625rem;
+  }
+}
+@media (min-width: 480px)
+{
+  ion-content
+  {
+    --padding-start: 2.5rem;
+    --padding-end: 2.5rem;
+    --padding-top: 3.125rem;
+  }
+  .btn_next
+  {
+    margin-top: 18.75rem;
+  }
+}
+@media (min-width: 640px)
+{
+  ion-content
+  {
+    --padding-start: 7.5rem;
+    --padding-end: 7.5rem;
+  }
+}
+@media (min-width: 768px)
+{
+  ion-content
+  {
+    --padding-start: 12.5rem;
+    --padding-end: 12.5rem;
+    --padding-top: 6.25rem;
+  }
+}
+@media (min-width: 1024px)
+{
+  ion-content
+  {
+    --padding-start: 18.75rem;
+    --padding-end: 18.75rem;
+    --padding-top: 6.25rem;
+  }
+}

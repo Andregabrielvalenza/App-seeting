@@ -1,0 +1,143 @@
+@font-face{
+    font-family: AvenirMedium;
+    src : url('/assets/font/Avenir-Medium.ttf')
+}
+@font-face{
+    font-family: AvenirHeavy;
+    src : url('/assets/font/Avenir Heavy.ttf')
+}
+ion-content
+{
+    --background: #000000a6;
+    position: relative;
+    --padding-start:  1.25rem;
+    --padding-end: 1.25rem;
+}
+.icon_balnco
+{
+    color: #ffffff;
+    font-size: 1.875rem;
+    position: absolute;
+    top: 1.25rem;
+    right: 0.9375rem;
+    z-index: 1;
+    cursor: pointer;
+}
+ion-card
+{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    --background: #FFFFFF;
+    margin-top: 3.75rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.8125rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    .p_heavy
+    {
+        --color: #555555;
+        font-family: AvenirHeavy;
+        font-size: 1.25rem;
+        margin-top: 0px;
+    }
+    .descrion_valida
+    {
+        color: #555555;
+        font-family: AvenirMedium;
+        font-size: 1rem;
+        padding: 0px 1.25rem;
+        margin-top: 1.25rem;
+    }
+    ion-button
+    {
+      --background: #77BDF0;
+      --border-radius: 6px;
+      font-family: AvenirHeavy;
+      font-size: 1rem;
+      width: 100%;
+      margin-top: 1.5625rem;
+      --background-activated: #77BDF0;
+      --border-radius: 12px;
+    }
+    ion-button:hover
+    {
+      --background: #77BDF0;
+      --volor: #FFFFFF;
+    }
+}
+@media (min-width: 411px)
+{
+  ion-content
+  {
+    --padding-start: 3.125rem;
+    --padding-end: 3.125rem;
+  }
+  .icon_balnco
+  {
+    top: 2.5rem;
+    right: 3.125rem;
+  }
+  ion-card
+  {
+      margin-top: 5.9375rem;
+  }
+}
+@media (min-width: 480px)
+{
+  ion-content
+  {
+    --padding-start: 4.375rem;
+    --padding-end: 4.375rem;
+  }
+  .icon_balnco
+  {
+    top: 2.5rem;
+    right: 3.125rem;
+  }
+  ion-card
+  {
+    margin-top: 8.125rem;
+  }
+}
+@media (min-width: 640px)
+{
+  ion-content
+  {
+    --padding-start: 7.5rem;
+    --padding-end: 7.5rem;
+  }
+  .icon_balnco
+  {
+    top: 1.25rem;
+    right: 3.125rem;
+  }
+  ion-card
+  {
+    margin-top: 4.375rem;
+  }
+}
+@media (min-width: 768px)
+{
+  ion-content
+  {
+    --padding-start: 12.5rem;
+    --padding-end: 12.5rem;
+  }
+  ion-card
+  {
+    margin-top: 15rem;
+  }
+  .icon_balnco
+  {
+    top: 3.75rem;
+    right: 5.625rem;
+  }
+}
+@media (min-width: 1024px)
+{
+  ion-content
+  {
+    --padding-start: 18.75rem;
+    --padding-end: 18.75rem;
+  }
+}
