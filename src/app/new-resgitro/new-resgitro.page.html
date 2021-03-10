@@ -1,0 +1,111 @@
+<!--<ion-header>
+  <ion-toolbar>
+    <ion-title>new-resgitro</ion-title>
+  </ion-toolbar>
+</ion-header>-->
+
+<ion-content>
+  <ion-progress-bar mode="ios" value="0.25"></ion-progress-bar>
+  <ion-grid class="grid-pagging">
+    <ion-row style="display: flex;">
+      <ion-col size="12" class="ion-no-padding">
+        <h1 class="ion-text-center">¿Cómo te llamas?</h1>
+        <ion-item class="item-llamas" lines="none">
+          <ion-label position="stacked" class="label-campo">Así es como aparecerás en Seeking</ion-label>
+          <ion-input type="text" class="input-llmas"></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row style="display: flex;">
+      <ion-col size="12">
+        <h1 class="ion-text-center">¡Hola, Gabriel! ¿Tu fecha de nacimiento?</h1>
+        <p class="color-plomo ion-text-center">Requerimos esto para confirmar que eres mayor de 18 años</p>
+      </ion-col>
+      <ion-col size="12" class="ion-no-padding">
+        <ion-row class="ion-justify-content-center">
+          <ion-col size="3" class="col-padding-dia">
+            <p class="p-dia-mes-ano">Día</p>
+            <ion-item lines="none" class="item-dias">
+              <ion-input type="number" placeholder="D" class="input-dia"></ion-input>
+              <ion-input type="number" placeholder="D" class="input-dia input-left" ></ion-input>
+            </ion-item>
+          </ion-col>
+          <ion-col size="3" class="col-padding-mes">
+            <p class="p-dia-mes-ano">Mes</p>
+            <ion-item lines="none" class="item-dias">
+              <ion-input type="number" placeholder="M" class="input-dia"></ion-input>
+              <ion-input type="number" placeholder="M" class="input-dia input-left" ></ion-input>
+            </ion-item>
+          </ion-col>
+          <ion-col size="6" class="col-padding-ano" >
+            <p class="p-dia-mes-ano">Año</p>
+            <ion-item lines="none" class="item-dias">
+              <ion-input type="number" placeholder="A" class="input-dia"></ion-input>
+              <ion-input type="number" placeholder="A" class="input-dia input-left" ></ion-input>
+              <ion-input type="number" placeholder="A" class="input-dia input-left"></ion-input>
+              <ion-input type="number" placeholder="A" class="input-dia input-left" ></ion-input>
+            </ion-item>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+    </ion-row>
+    <ion-row style="display: flex;">
+      <ion-col size="12" class="ion-no-padding">
+        <h1 class="ion-text-center">¿Cuál es tu correo electrónico?</h1>
+        <p class="color-plomo ion-text-center">O regístrate con tu número de teléfono</p>
+        <ion-item class="item-llamas" lines="none">
+          <ion-input type="text" class="input-llmas"></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row style="display: none;">
+      <ion-col size="12" class="ion-no-padding">
+        <h1 class="ion-text-center">¡Ya falta poco!<br>Crea una contraseña</h1>
+        <ion-item class="item-llamas" lines="none">
+          <ion-input type="text" class="input-llmas"></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row style="display: flex;">
+      <ion-col size="12" class="ion-no-padding">
+        <h1 class="ion-text-center">¡Una sonrisita!<br>Necesitas al menos una foto para poder utilizar Seeking</h1>
+        <ion-card class="card-foto">
+          <img src="assets/img/iconos_Photo.png">
+          <p class="p-subir-foto">Subir una foto</p>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="12" class="ion-no-padding">
+        <h1 class="ion-text-center">¡Muy buena foto!<br>Cuentas más fotos tengas, mejor</h1>
+        <div class="div-fotos">
+          <ion-card class="card-fotos">
+            <ion-avatar>
+              <img src="assets/img/Rectangulo16895.png">
+            </ion-avatar>
+          </ion-card>
+          <ion-card class="card-fotos">
+            <ion-icon name="add-outline" class="icon-add"></ion-icon>
+          </ion-card>
+          <ion-card class="card-fotos">
+            <ion-icon name="add-outline" class="icon-add"></ion-icon>
+          </ion-card>
+          <ion-card class="card-fotos">
+            <ion-icon name="add-outline" class="icon-add"></ion-icon>
+          </ion-card>
+          <ion-card class="card-fotos">
+            <ion-icon name="add-outline" class="icon-add"></ion-icon>
+          </ion-card>
+          <ion-card class="card-fotos">
+            <ion-icon name="add-outline" class="icon-add"></ion-icon>
+          </ion-card>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+<ion-footer class="ion-no-border ion-text-center">
+  <ion-button class="btn-continuar-footer">Continuar</ion-button>
+  <p class="p-footer">Continuar con Facebook</p>
+</ion-footer>
+

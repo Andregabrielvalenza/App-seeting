@@ -1,0 +1,53 @@
+@font-face{
+    font-family: AvenirMedium;
+    src : url('/assets/font/Avenir-Medium.ttf')
+}
+@font-face{
+    font-family: AvenirBlack;
+    src : url('/assets/font/Avenir-Black.otf')
+}
+@font-face{
+    font-family: AvenirRoman;
+    src : url('/assets/font/Avenir Roman.otf')
+}
+ion-toolbar
+{
+    position: relative;
+    --padding-start: 40px;
+    --padding-end: 40px;
+    .icon-left
+    {
+        position: absolute;
+        left: 10px;
+        color: #7D7D7D;
+        top: 30%;
+        font-size: 25px;
+    }
+    .icon-close
+    {
+        position: absolute;
+        right: 10px;
+        color: #7D7D7D;
+        top: 30%;
+        font-size: 25px;
+    }
+    .input-header
+    {
+        --color: #3A3A3A;
+        font-family: AvenirMedium;
+        text-decoration-line: underline;
+    }
+}
+ion-item
+{
+    --padding-start: 0px;
+    --inner-padding-end: 0px;
+    ion-label
+    {
+        --color: #333333;
+        font-family: AvenirRoman;
+        font-size: 18px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}

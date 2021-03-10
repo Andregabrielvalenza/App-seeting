@@ -1,0 +1,72 @@
+
+@font-face{
+    font-family: AvenirHeavy;
+    src : url('/assets/font/Avenir Heavy.ttf')
+}
+@font-face{
+    font-family: Avenirlight;
+    src : url('/assets/font/avenirltstd-light.otf')
+}
+@font-face{
+    font-family: AvenirMedium;
+    src : url('/assets/font/Avenir-Medium.ttf')
+}
+@font-face{
+    font-family: AvenirBlack;
+    src : url('/assets/font/Avenir-Black.otf')
+}
+h1
+{
+    color: #333333;
+    font-family: AvenirHeavy;
+    margin-top: 20%;
+    font-size: 21px;
+}
+.p-plomo
+{
+    font-family: AvenirMedium;
+    color: #AFAFAF;
+    font-size: 18px;
+    margin: 0px;
+}
+.grid-pagging
+{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+ion-searchbar
+{
+    --background: #F6F6F6;
+    font-family: AvenirMedium;
+    --placeholder-color: #9D9D9D;
+    --placeholder-font-weight: 600;
+    --color: #9D9D9D;
+    --icon-color: #010101;
+    margin-top: 50px;
+    --placeholder-opacity: 1;
+
+}
+@media(min-width: 540px)
+{
+    .grid-pagging
+    {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+}
+@media(min-width: 768px)
+{
+    .grid-pagging
+    {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+@media(min-width: 1024px)
+{
+    .grid-pagging
+    {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+}

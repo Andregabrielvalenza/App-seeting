@@ -8,38 +8,38 @@
 }
 ion-content
 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    --padding-start:  1.25rem;
-    --padding-end: 1.25rem;
-    --padding-top: 1rem;
-    position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  --padding-start:  1.25rem;
+  --padding-end: 1.25rem;
+  --padding-top: 1rem;
+  position: relative;
 }
 h1
 {
-    color: #555555;
-    font-family: AvenirHeavy;
+  color: #555555;
+  font-family: AvenirHeavy;
 }
 .btn_close
 {
-    position: absolute;
-    --background: #ffffff;
-    --background-activated: #ffffff;
-    --color: #707070;
-    right: 1.563rem;
-    --border-radius: 50%;
-    width: 1.875rem;
-    height: 1.875rem;
-    --padding-start: 0px;
-    --padding-end: 0px;
-    top: 1.75rem;
-    --box-shadow: 0px 3px 6px #00000029;
-    .icon_close
-    {
-      color: #707070;
-    }
+  position: absolute;
+  --background: #ffffff;
+  --background-activated: #ffffff;
+  --color: #707070;
+  right: 1.563rem;
+  --border-radius: 50%;
+  width: 1.875rem;
+  height: 1.875rem;
+  --padding-start: 0px;
+  --padding-end: 0px;
+  top: 1.75rem;
+  --box-shadow: 0px 3px 6px #00000029;
+  .icon_close
+  {
+    color: #707070;
+  }
 }
 p
 {
@@ -69,6 +69,7 @@ p
     --padding-end: 20px;
     --placeholder-color: #555555;
     font-family: AvenirMedium;
+    --placeholder-opacity: 1;
   }
 }
 ion-textarea
@@ -82,12 +83,13 @@ ion-textarea
   --padding-top: 20px;
   --padding-bottom: 20px;
   height: 150px;
+  --placeholder-opacity: 1;
 }
 .btn_rojo
 {
   --background: #FF000A;
   --background-activated: #FF000A;
-  --border-radius: 6px;
+  --border-radius: 23px;
   --color: #ffffff;
   --color-activated: #ffffff;
   font-family: AvenirHeavy;

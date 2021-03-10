@@ -29,6 +29,25 @@ ion-content
     --padding-top: 1rem;
     position: relative;
 }
+.btn-close-messaje
+{
+    position: absolute;
+    right: 25px;
+    top: 30px;
+    --background: #ffffff;
+    --border-radius: 50%;
+    --box-shadow: 0px 3px 6px #00000029;
+    --padding-start: 0px;
+    --padding-end: 0px;
+    width: 33px;
+    height: 33px;
+    margin: 0px;
+    .icon-close
+    {
+        color: #707070;
+        font-size: 25px;
+    }
+}
 h1
 {
     color: #333333;
@@ -214,6 +233,7 @@ ion-footer
             height: 40px;
             --padding-top: 13px;
             --placeholder-color: #848484;
+            --placeholder-opacity: 1;
         }
         ion-icon
         {

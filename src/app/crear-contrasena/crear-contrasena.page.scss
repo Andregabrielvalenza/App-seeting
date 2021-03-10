@@ -51,6 +51,7 @@ ion-card
         border-radius: 0.375rem;
         margin-bottom: 0.5rem;
         font-size: 1rem;
+        --placeholder-opacity: 1;
       }
       ion-input::placeholder
       {
@@ -61,7 +62,6 @@ ion-card
         color: #909090;
         font-family: AvenirMedium;
         margin-top: 10px;
-        margin-bottom: 50px;
         font-size: 0.875rem;
       }
       .div_check
@@ -91,7 +91,7 @@ ion-card
         font-family: AvenirHeavy;
         font-size: 1rem;
         width: 100%;
-        margin-top: 150px;
+        margin-top: 19px;
         --background-activated: #77BDF0;
       }
       ion-button:hover

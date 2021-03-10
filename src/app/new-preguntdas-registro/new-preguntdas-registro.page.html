@@ -1,0 +1,451 @@
+<!--<ion-header>
+  <ion-toolbar>
+    <ion-title>new-preguntdas-registro</ion-title>
+  </ion-toolbar>
+</ion-header>-->
+
+<ion-content style="position: relative;">
+  <ion-icon name="close-sharp" class="iocon-close"></ion-icon>
+  <ion-grid class="grid-pagging">
+    <ion-row>
+      <ion-col size="12" class="ion-no-padding ">
+        <h1>Honestamente, ¿qué es lo que buscas?</h1>
+        <ion-list>
+          <ion-radio-group value="biff">
+            <ion-item lines="none">
+              <ion-label>Chatear y conocer gente nueva</ion-label>
+              <ion-radio slot="start" value="biff" mode="md"></ion-radio>
+            </ion-item>
+        
+            <ion-item lines="none">
+              <ion-label>Salir con alguien</ion-label>
+              <ion-radio slot="start" value="griff" mode="md"></ion-radio>
+            </ion-item>
+        
+            <ion-item lines="none">
+              <ion-label>Una relación seria</ion-label>
+              <ion-radio slot="start" value="buford" mode="md"></ion-radio>
+            </ion-item>
+
+            <ion-item lines="none">
+              <ion-label>Ver qué se da</ion-label>
+              <ion-radio slot="start" value="ver" mode="md"></ion-radio>
+            </ion-item>
+          </ion-radio-group>
+        </ion-list>
+      </ion-col>
+      <ion-col size="12" class="ion-no-padding ">
+        <h1>¿Cómo describirías tu orientación sexual?</h1>
+        <ion-list>
+          <ion-radio-group value="biff">
+            <ion-item lines="none">
+              <ion-label>Heterosexual</ion-label>
+              <ion-radio slot="start" value="biff" mode="md"></ion-radio>
+            </ion-item>
+        
+            <ion-item lines="none">
+              <ion-label>Homosexual</ion-label>
+              <ion-radio slot="start" value="griff" mode="md"></ion-radio>
+            </ion-item>
+        
+            <ion-item lines="none">
+              <ion-label>Lesbiana</ion-label>
+              <ion-radio slot="start" value="buford" mode="md"></ion-radio>
+            </ion-item>
+
+            <ion-item lines="none">
+              <ion-label>Bisexual</ion-label>
+              <ion-radio slot="start" value="ver" mode="md"></ion-radio>
+            </ion-item>
+          </ion-radio-group>
+        </ion-list>
+      </ion-col>
+      <ion-col size="12" class="ion-no-padding">
+        <h1>¿Cuál es tu situación sentimental?</h1>
+        <ion-list>
+          <ion-radio-group value="biff">
+            <ion-item lines="none">
+              <ion-label>Soltero</ion-label>
+              <ion-radio slot="start" value="biff" mode="md"></ion-radio>
+            </ion-item>
+        
+            <ion-item lines="none">
+              <ion-label>En una relación</ion-label>
+              <ion-radio slot="start" value="griff" mode="md"></ion-radio>
+            </ion-item>
+        
+            <ion-item lines="none">
+              <ion-label>Es complicado</ion-label>
+              <ion-radio slot="start" value="buford" mode="md"></ion-radio>
+            </ion-item>
+
+            <ion-item lines="none">
+              <ion-label>Relación abierta</ion-label>
+              <ion-radio slot="start" value="ver" mode="md"></ion-radio>
+            </ion-item>
+          </ion-radio-group>
+        </ion-list>
+      </ion-col>
+      <ion-col size="12" class="ion-no-padding">
+        <h1>¿Qué te hace feliz?</h1>
+        <ion-searchbar type="text" placeholder="Buscar" class="ion-no-padding"></ion-searchbar>
+        <ion-row class="row-top">
+          <ion-col size="12" class="ion-no-padding col-note-bottom">
+            <ion-note style="background: #FFF5FD;">#música</ion-note>
+          </ion-col>
+          <ion-col size="12" class="ion-no-padding col-note-bottom">
+            <ion-note style="background: #ECF7FD;">#oírmúsica</ion-note>
+          </ion-col>
+          <ion-col size="12" class="ion-no-padding col-note-bottom">
+            <ion-note style="background: #ECF7FD;">#deportes</ion-note>
+          </ion-col>
+          <ion-col size="12" class="ion-no-padding col-note-bottom">
+            <ion-note style="background: #ECF7FD;">#relajarme</ion-note>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+      <ion-col size="12" class="ion-no-padding ">
+        <h1>Descríbenos cómo eres.</h1>
+        <ion-item lines="none" class="item-top">
+          <ion-input placeholder="¿Qué más quieres que sepan los...." class="input-descri"></ion-input>
+        </ion-item>
+        <p class="p-contador">0 / 500</p>
+      </ion-col>
+      <ion-col size="12" class="ion-no-padding ">
+        <h1>¿Cuánto mides?</h1>
+        <ion-item class="item-top" lines="none">
+          <ion-range pin="true" mode="ios"></ion-range>
+        </ion-item> 
+        <ion-item lines="none">
+          <ion-label class="label-chec">Preferiría no decirlo</ion-label>
+          <ion-checkbox slot="start" class="checbox-talla"></ion-checkbox>
+        </ion-item>    
+      </ion-col>
+      <ion-col size="12" class="ion-no-padding ">
+        <h1>Mis opiniones honestas</h1>
+        <p class="colo-plomo">Elige tres preguntas para agregar a tu perfil</p>
+        <div class="div-card-opciones">
+          <ion-card class="cardopiniones">
+            <h5 class="p-card-opciones">¿Qué te hace reír?</h5>
+          </ion-card>
+          <ion-card class="cardopiniones">
+            <h5 class="p-card-opciones">¿Qué música te gusta?</h5>
+          </ion-card>
+          <ion-card class="cardopiniones">
+            <h5 class="p-card-opciones">¿Cuál sería para ti la primera cita ideal?</h5>
+          </ion-card>
+        </div>
+      </ion-col>
+      <ion-col size="12" class="ion-no-padding ">
+        <h1>¿Bebes?</h1>
+        <ion-list>
+          <ion-radio-group value="biff">
+            <ion-item lines="none">
+              <ion-label>Sí</ion-label>
+              <ion-radio slot="start" value="biff" mode="md"></ion-radio>
+            </ion-item>
+        
+            <ion-item lines="none">
+              <ion-label>No</ion-label>
+              <ion-radio slot="start" value="griff" mode="md"></ion-radio>
+            </ion-item>
+        
+            <ion-item lines="none">
+              <ion-label>A veces</ion-label>
+              <ion-radio slot="start" value="buford" mode="md"></ion-radio>
+            </ion-item>
+
+            <ion-item lines="none">
+              <ion-label>Preferiría no decirlo</ion-label>
+              <ion-radio slot="start" value="ver" mode="md"></ion-radio>
+            </ion-item>
+          </ion-radio-group>
+        </ion-list>
+      </ion-col>
+      <ion-col size="12" class="ion-no-padding ">
+        <h1>¿Fumas?</h1>
+        <ion-list>
+          <ion-radio-group value="biff">
+            <ion-item lines="none">
+              <ion-label>Sí</ion-label>
+              <ion-radio slot="start" value="biff" mode="md"></ion-radio>
+            </ion-item>
+        
+            <ion-item lines="none">
+              <ion-label>No</ion-label>
+              <ion-radio slot="start" value="griff" mode="md"></ion-radio>
+            </ion-item>
+        
+            <ion-item lines="none">
+              <ion-label>A veces</ion-label>
+              <ion-radio slot="start" value="buford" mode="md"></ion-radio>
+            </ion-item>
+
+            <ion-item lines="none">
+              <ion-label>Preferiría no decirlo</ion-label>
+              <ion-radio slot="start" value="ver" mode="md"></ion-radio>
+            </ion-item>
+          </ion-radio-group>
+        </ion-list>
+      </ion-col>
+      <ion-col size="12" class="ion-no-padding ">
+        <h1>¿Te gustaría tener hijos?</h1>
+        <ion-list>
+          <ion-radio-group value="biff">
+            <ion-item lines="none">
+              <ion-label>Algún día</ion-label>
+              <ion-radio slot="start" value="biff" mode="md"></ion-radio>
+            </ion-item>
+        
+            <ion-item lines="none">
+              <ion-label>No planeo tenerlos</ion-label>
+              <ion-radio slot="start" value="griff" mode="md"></ion-radio>
+            </ion-item>
+        
+            <ion-item lines="none">
+              <ion-label>Ya tengo</ion-label>
+              <ion-radio slot="start" value="buford" mode="md"></ion-radio>
+            </ion-item>
+
+            <ion-item lines="none">
+              <ion-label>Preferiría no decirlo</ion-label>
+              <ion-radio slot="start" value="ver" mode="md"></ion-radio>
+            </ion-item>
+          </ion-radio-group>
+        </ion-list>
+      </ion-col>
+      <ion-col size="12" class="ion-no-padding ">
+        <h1>Comparte tu estado de ánimo</h1>
+        <p class="colo-plomo">Elige un estado de ánimo para que aparezca en tu perfil</p>
+        <ion-list>
+          <ion-radio-group value="biff">
+            <ion-item lines="none">
+              <ion-label>Listo para chatear</ion-label>
+              <ion-radio slot="start" value="biff" mode="md"></ion-radio>
+            </ion-item>
+        
+            <ion-item lines="none">
+              <ion-label>Buscando un encuentro</ion-label>
+              <ion-radio slot="start" value="griff" mode="md"></ion-radio>
+            </ion-item>
+        
+            <ion-item lines="none">
+              <ion-label>Con hambre. ¡Comamos algo!</ion-label>
+              <ion-radio slot="start" value="ver" mode="md"></ion-radio>
+            </ion-item>
+          </ion-radio-group>
+        </ion-list>
+      </ion-col>
+      <ion-col size="12" class="ion-no-padding ">
+        <h1>¿Cuál es tu nivel educativo?</h1>
+        <ion-list>
+          <ion-radio-group value="biff">
+            <ion-item lines="none">
+              <ion-label>Estudiando la prepa</ion-label>
+              <ion-radio slot="start" value="biff" mode="md"></ion-radio>
+            </ion-item>
+        
+            <ion-item lines="none">
+              <ion-label>Título de posgrado o superior</ion-label>
+              <ion-radio slot="start" value="griff" mode="md"></ion-radio>
+            </ion-item>
+        
+            <ion-item lines="none">
+              <ion-label>Estudiando un posgrado</ion-label>
+              <ion-radio slot="start" value="ver" mode="md"></ion-radio>
+            </ion-item>
+
+            <ion-item lines="none">
+              <ion-label>Estudiando un licenciatura</ion-label>
+              <ion-radio slot="start" value="licenciatura" mode="md"></ion-radio>
+            </ion-item>
+
+            <ion-item lines="none">
+              <ion-label>Título universitario</ion-label>
+              <ion-radio slot="start" value="titulouniversitario" mode="md"></ion-radio>
+            </ion-item>
+
+            <ion-item lines="none">
+              <ion-label>Preferiría no decirlo</ion-label>
+              <ion-radio slot="start" value="preferiadecirlo" mode="md"></ion-radio>
+            </ion-item>
+          </ion-radio-group>
+        </ion-list>
+      </ion-col>
+      <ion-col size="12" class="ion-no-padding ">
+        <h1>¿Eres introvertido o extrovertido?</h1>
+        <ion-list>
+          <ion-radio-group value="biff">
+            <ion-item lines="none">
+              <ion-label>Introvertido</ion-label>
+              <ion-radio slot="start" value="biff" mode="md"></ion-radio>
+            </ion-item>
+        
+            <ion-item lines="none">
+              <ion-label>Extrovertido</ion-label>
+              <ion-radio slot="start" value="griff" mode="md"></ion-radio>
+            </ion-item>
+        
+            <ion-item lines="none">
+              <ion-label>En medio de ambas</ion-label>
+              <ion-radio slot="start" value="ver" mode="md"></ion-radio>
+            </ion-item>
+
+            <ion-item lines="none">
+              <ion-label>Preferiría no decirlo</ion-label>
+              <ion-radio slot="start" value="preferiadecirlo" mode="md"></ion-radio>
+            </ion-item>
+          </ion-radio-group>
+        </ion-list>
+      </ion-col>
+      <ion-col size="12" class="ion-no-padding ">
+        <h1>¿Cuál es tu signo zodiacal?</h1>
+        <ion-list>
+          <ion-radio-group value="biff">
+            <ion-item lines="none">
+              <ion-label>Aries</ion-label>
+              <ion-radio slot="start" value="aries" mode="md"></ion-radio>
+            </ion-item>
+        
+            <ion-item lines="none">
+              <ion-label>Tauro</ion-label>
+              <ion-radio slot="start" value="tauro" mode="md"></ion-radio>
+            </ion-item>
+        
+            <ion-item lines="none">
+              <ion-label>Géminis</ion-label>
+              <ion-radio slot="start" value="géminis" mode="md"></ion-radio>
+            </ion-item>
+
+            <ion-item lines="none">
+              <ion-label>Cáncer</ion-label>
+              <ion-radio slot="start" value="cáncer" mode="md"></ion-radio>
+            </ion-item>
+            
+            <ion-item lines="none">
+              <ion-label>Leo</ion-label>
+              <ion-radio slot="start" value="leo" mode="md"></ion-radio>
+            </ion-item>
+
+            <ion-item lines="none">
+              <ion-label>Virgo</ion-label>
+              <ion-radio slot="start" value="virgo" mode="md"></ion-radio>
+            </ion-item>
+
+            <ion-item lines="none">
+              <ion-label>Libra</ion-label>
+              <ion-radio slot="start" value="libra" mode="md"></ion-radio>
+            </ion-item>
+
+            <ion-item lines="none">
+              <ion-label>Escorpio</ion-label>
+              <ion-radio slot="start" value="escorpio" mode="md"></ion-radio>
+            </ion-item>
+
+            <ion-item lines="none">
+              <ion-label>Sagitario</ion-label>
+              <ion-radio slot="start" value="sagitario" mode="md"></ion-radio>
+            </ion-item>
+
+            <ion-item lines="none">
+              <ion-label>Capricornio</ion-label>
+              <ion-radio slot="start" value="capricornio" mode="md"></ion-radio>
+            </ion-item>
+
+            <ion-item lines="none">
+              <ion-label>Acuario </ion-label>
+              <ion-radio slot="start" value="acuario " mode="md"></ion-radio>
+            </ion-item>
+
+            <ion-item lines="none">
+              <ion-label>Piscis</ion-label>
+              <ion-radio slot="start" value="piscis" mode="md"></ion-radio>
+            </ion-item>
+          </ion-radio-group>
+        </ion-list>
+      </ion-col>
+      <ion-col size="12" class="ion-no-padding ">
+        <h1>¿Tienes mascotas?</h1>
+        <ion-list>
+          <ion-radio-group value="biff">
+            <ion-item lines="none">
+              <ion-label>Gato(s)</ion-label>
+              <ion-radio slot="start" value="gato" mode="md"></ion-radio>
+            </ion-item>
+        
+            <ion-item lines="none">
+              <ion-label>Perro(s)</ion-label>
+              <ion-radio slot="start" value="perro" mode="md"></ion-radio>
+            </ion-item>
+        
+            <ion-item lines="none">
+              <ion-label>Tanto gatos como perros</ion-label>
+              <ion-radio slot="start" value="tantogatosperros" mode="md"></ion-radio>
+            </ion-item>
+
+            <ion-item lines="none">
+              <ion-label>Otros animales</ion-label>
+              <ion-radio slot="start" value="otroanimales" mode="md"></ion-radio>
+            </ion-item>
+
+            <ion-item lines="none">
+              <ion-label>Sin mascotas</ion-label>
+              <ion-radio slot="start" value="sinmascotas" mode="md"></ion-radio>
+            </ion-item>
+
+            <ion-item lines="none">
+              <ion-label>Preferiría no decirlo</ion-label>
+              <ion-radio slot="start" value="preferiadecirlo" mode="md"></ion-radio>
+            </ion-item>
+          </ion-radio-group>
+        </ion-list>
+      </ion-col>
+      <ion-col size="12" class="ion-no-padding ">
+        <h1>¿Cuál es tu religión?</h1>
+        <ion-list>
+          <ion-radio-group value="biff">
+            <ion-item lines="none">
+              <ion-label>Agnóstico</ion-label>
+              <ion-radio slot="start" value="agnostico" mode="md"></ion-radio>
+            </ion-item>
+        
+            <ion-item lines="none">
+              <ion-label>Ateo</ion-label>
+              <ion-radio slot="start" value="ateo" mode="md"></ion-radio>
+            </ion-item>
+        
+            <ion-item lines="none">
+              <ion-label>Budista</ion-label>
+              <ion-radio slot="start" value="budista" mode="md"></ion-radio>
+            </ion-item>
+
+            <ion-item lines="none">
+              <ion-label>Cristiano</ion-label>
+              <ion-radio slot="start" value="cristiano" mode="md"></ion-radio>
+            </ion-item>
+
+            <ion-item lines="none">
+              <ion-label>Hinduista</ion-label>
+              <ion-radio slot="start" value="hinduista" mode="md"></ion-radio>
+            </ion-item>
+
+            <ion-item lines="none">
+              <ion-label>Preferiría no decirlo</ion-label>
+              <ion-radio slot="start" value="preferiadecirlo" mode="md"></ion-radio>
+            </ion-item>
+          </ion-radio-group>
+        </ion-list>
+      </ion-col>
+      <ion-col size="12" class="ion-no-padding ">
+        <h1>Verifica tu foto</h1>
+        <p class="colo-plomo">¡Sólo te tomará un momentito dejarles saber a los demás que de verdad se trata de ti!</p>
+        <ion-button class="btn-verrifica-foto"><ion-icon name="checkmark-circle-sharp" class="icon-cicre-chec"></ion-icon> Verifícate con una foto</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+<ion-footer class="ion-no-border">
+  <ion-button class="btn-cicre-left"><ion-icon name="chevron-back-sharp" class="icon-left-rigt-footer"></ion-icon></ion-button>
+  <ion-progress-bar value="0.5"></ion-progress-bar>
+  <ion-button class="btn-cicre-right"><ion-icon name="chevron-forward-sharp" class="icon-left-rigt-footer"></ion-icon></ion-button>
+</ion-footer>

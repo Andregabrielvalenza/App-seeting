@@ -1,88 +1,89 @@
 @font-face{
-    font-family: AvenirHeavy;
-    src : url('/assets/font/Avenir Heavy.ttf')
+  font-family: AvenirHeavy;
+  src : url('/assets/font/Avenir Heavy.ttf')
 }
 @font-face{
-    font-family: AvenirMedium;
-    src : url('/assets/font/Avenir-Medium.ttf')
+  font-family: AvenirMedium;
+  src : url('/assets/font/Avenir-Medium.ttf')
 }
 ion-content
 {
-    --padding-start: 1.25rem;
-    --padding-end: 1.25rem;
-    --padding-top: 1.25rem;
+  --padding-start: 1.25rem;
+  --padding-end: 1.25rem;
+  --padding-top: 1.25rem;
 }
 h1
 {
-    color: #333333;
-    font-family: AvenirHeavy;
-    margin-bottom: 2.5rem;
+  color: #333333;
+  font-family: AvenirHeavy;
+  margin-bottom: 2.5rem;
 }
 .btn_next
 {
-    --background: #77BDF0;
-    --color: #ffffff;
-    font-family: AvenirHeavy;
-    width: 90%;
-    margin-left: 5%;
-    margin-top: 10.625rem;
-    --background-activated: #77BDF0;
-    --color-activated: #ffffff;
+  --background: #77BDF0;
+  --color: #ffffff;
+  font-family: AvenirHeavy;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 10.625rem;
+  --background-activated: #77BDF0;
+  --color-activated: #ffffff;
 }
 .btn_skip
 {
-    --color: #555555;
-    font-family: AvenirMedium;
-    --background: transparent;
-    --box-shadow: none;
-    --background-activated: transparent;
-    --color-activated: #555555;
-    width: 30%;
-    margin-left: 35%;
-    margin-top: 1.875rem;
-    margin-bottom: 3.125rem;
-    text-decoration: underline;
+  --color: #555555;
+  font-family: AvenirMedium;
+  --background: transparent;
+  --box-shadow: none;
+  --background-activated: transparent;
+  --color-activated: #555555;
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 1.875rem;
+  margin-bottom: 3.125rem;
+  text-decoration: underline;
 }
 ion-item
 {
-    --background: transparent;
-    --inner-padding-end: 0px;
-    margin-bottom: 1.25rem;
-    label
-    {
-        --color: #555555;
-        font-family: AvenirMedium;
-        font-size: 1rem;
-        width: 35%;
-        padding-left: 0.625rem;
-        padding-right: 0.625rem;
-    }
-    ion-select
-    {
-        border-radius: 1.5rem;
-        border: 1px solid #DCDCDC;
-        color: #555555;
-        font-family: AvenirMedium;
-        font-size: 1rem;
-        --placeholder-color: #555555;
-        width: 70%;
-        --padding-end: 1.5625rem;
-        --padding-start: 1.5625rem;
-    }
-    .select-interface-option {
-        color: red;
-    }
+  --background: transparent;
+  --inner-padding-end: 0px;
+  margin-bottom: 1.25rem;
+  label
+  {
+    --color: #555555;
+    font-family: AvenirMedium;
+    font-size: 1rem;
+    width: 35%;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+  }
+  ion-select
+  {
+    border-radius: 1.5rem;
+    border: 1px solid #DCDCDC;
+    color: #555555;
+    font-family: AvenirMedium;
+    font-size: 1rem;
+    --placeholder-color: #555555;
+    width: 70%;
+    --placeholder-opacity: 1;
+    --padding-end: 1.5625rem;
+    --padding-start: 1.5625rem;
+  }
+  .select-interface-option {
+    color: red;
+  }
 }
 .btn_add
 {
-    --color: #555555;
-    font-family: AvenirMedium;
-    --background: transparent;
-    --box-shadow: none;
-    --background-activated: transparent;
-    --color-activated: #555555;
-    width: 30%;
-    margin-left: 35%;
+  --color: #555555;
+  font-family: AvenirMedium;
+  --background: transparent;
+  --box-shadow: none;
+  --background-activated: transparent;
+  --color-activated: #555555;
+  width: 30%;
+  margin-left: 35%;
 }
 @media (min-width: 411px)
 {

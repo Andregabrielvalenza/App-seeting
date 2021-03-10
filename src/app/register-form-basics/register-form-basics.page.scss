@@ -1,128 +1,129 @@
 @font-face{
-    font-family: AvenirHeavy;
-    src : url('/assets/font/Avenir Heavy.ttf')
+  font-family: AvenirHeavy;
+  src : url('/assets/font/Avenir Heavy.ttf')
 }
 @font-face{
-    font-family: AvenirMedium;
-    src : url('/assets/font/Avenir-Medium.ttf')
+  font-family: AvenirMedium;
+  src : url('/assets/font/Avenir-Medium.ttf')
 }
 ion-content
 {
-    --padding-start: 1.25rem;
-    --padding-end: 1.25rem;
-    --padding-top: 1.25rem;
+  --padding-start: 1.25rem;
+  --padding-end: 1.25rem;
+  --padding-top: 1.25rem;
 }
 h1
 {
-    color: #333333;
-    font-family: AvenirHeavy;
+  color: #333333;
+  font-family: AvenirHeavy;
 }
 ion-card
 {
-    width: 60%;
-    border-radius: 0.625rem;
-    border: 1px solid #E8E8E8;
-    box-shadow: 0px;
-    padding: 1.5625rem;
-    margin-top: 2.1875rem;
-    margin-bottom: 1.25rem;
-    margin-left: 20%;
-    img
-    {
-        width: 100%;
-        height: 100%;
-    }
+  width: 60%;
+  border-radius: 0.625rem;
+  border: 1px solid #E8E8E8;
+  box-shadow: 0px;
+  padding: 1.5625rem;
+  margin-top: 2.1875rem;
+  margin-bottom: 1.25rem;
+  margin-left: 20%;
+  img
+  {
+    width: 100%;
+    height: 100%;
+  }
 }
 .btn_add
 {
-    --background: #F0A177;
-    --color: #ffffff;
-    font-family: AvenirHeavy;
-    width: 90%;
-    margin-left: 5%;
-    --background-activated: #F0A177;
-    --color-activated: #ffffff;
+  --background: #F0A177;
+  --color: #ffffff;
+  font-family: AvenirHeavy;
+  width: 90%;
+  margin-left: 5%;
+  --background-activated: #F0A177;
+  --color-activated: #ffffff;
 }
 .input_register
 {
-    --background: #F7F8F7;
-    --color: #9D9D9D;
-    --placeholder-color: #9D9D9D;
-    border: 1px solid #E3E3E3;
-    border-radius: 6px;
-    font-size: 1rem;
-    --padding-top: 0.625rem;
-    --padding-bottom: 0.625rem;
-    font-family: AvenirMedium;
-    margin-bottom: 0.5rem;
+  --background: #F7F8F7;
+  --color: #9D9D9D;
+  --placeholder-color: #9D9D9D;
+  --placeholder-opacity: 1;
+  border: 1px solid #E3E3E3;
+  border-radius: 6px;
+  font-size: 1rem;
+  --padding-top: 0.625rem;
+  --padding-bottom: 0.625rem;
+  font-family: AvenirMedium;
+  margin-bottom: 0.5rem;
 }
 .icon_circulo
 {
-    position: absolute;
-    right: 0.3125rem;
-    top: 0.75rem;
-    z-index: 2;
-    width: 1.25rem;
-    height: 1.25rem;
-    border-radius: 50%;
-    border: 1px solid #EBEBEB;
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    .icon_interogative
-    {
-        color: #9D9D9D;
-        font-size: 0.875rem;
-    }
+  position: absolute;
+  right: 0.3125rem;
+  top: 0.75rem;
+  z-index: 2;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+  border: 1px solid #EBEBEB;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .icon_interogative
+  {
+    color: #9D9D9D;
+    font-size: 0.875rem;
+  }
 }
 .padding_input
 {
-    --padding-start:  0.9375rem;
-    --padding-end: 1.75rem;
+  --padding-start:  0.9375rem;
+  --padding-end: 1.75rem;
 }
 .padding_igaules
 {
-    --padding-start:  0.9375rem;
-    --padding-end: 0.9375rem;
+  --padding-start:  0.9375rem;
+  --padding-end: 0.9375rem;
 }
 .icon_calendar
 {
-    position: absolute;
-    right: 0.3125rem;
-    top: 0.875rem;
-    z-index: 2;
-    color: #9D9D9D;
-    font-size: 1.25rem;
+  position: absolute;
+  right: 0.3125rem;
+  top: 0.875rem;
+  z-index: 2;
+  color: #9D9D9D;
+  font-size: 1.25rem;
 }
 ion-grid
 {
-    margin-top: 1.5625rem;
+  margin-top: 1.5625rem;
 }
 .btn_next
 {
-    --background: #77BDF0;
-    --color: #ffffff;
-    font-family: AvenirHeavy;
-    width: 90%;
-    margin-left: 5%;
-    margin-top: 1.5625rem;
-    --background-activated: #77BDF0;
-    --color-activated: #ffffff;
+  --background: #77BDF0;
+  --color: #ffffff;
+  font-family: AvenirHeavy;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 1.5625rem;
+  --background-activated: #77BDF0;
+  --color-activated: #ffffff;
 }
 .btn_skip
 {
-    --color: #555555;
-    font-family: AvenirMedium;
-    --background: transparent;
-    --box-shadow: none;
-    --background-activated: transparent;
-    --color-activated: #555555;
-    width: 30%;
-    margin-left: 35%;
-    margin-top: 1.875rem;
-    margin-bottom: 3.125rem;
-    text-decoration: underline;
+  --color: #555555;
+  font-family: AvenirMedium;
+  --background: transparent;
+  --box-shadow: none;
+  --background-activated: transparent;
+  --color-activated: #555555;
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 1.875rem;
+  margin-bottom: 3.125rem;
+  text-decoration: underline;
 }
 @media (min-width: 411px)
 {

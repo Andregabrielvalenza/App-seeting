@@ -61,27 +61,28 @@ ion-item
   margin-bottom: 1.25rem;
   label
   {
-      --color: #555555;
-      font-family: AvenirBook;
-      font-size: 1rem;
-      width: 35%;
-      padding-left: 0.625rem;
-      padding-right: 0.625rem;
+    --color: #555555;
+    font-family: AvenirBook;
+    font-size: 1rem;
+    width: 35%;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
   }
   ion-select
   {
-      border-radius: 1.5rem;
-      border: 1px solid #DCDCDC;
-      color: #555555;
-      font-family: AvenirMedium;
-      font-size: 1rem;
-      --placeholder-color: #555555;
-      width: 70%;
-      --padding-end: 1.5625rem;
-      --padding-start: 1.5625rem;
+    border-radius: 1.5rem;
+    border: 1px solid #DCDCDC;
+    color: #555555;
+    font-family: AvenirMedium;
+    font-size: 1rem;
+    --placeholder-color: #555555;
+    --placeholder-opacity: 1;
+    width: 70%;
+    --padding-end: 1.5625rem;
+    --padding-start: 1.5625rem;
   }
   .select-interface-option {
-      color: red;
+    color: red;
   }
 }
 ion-textarea

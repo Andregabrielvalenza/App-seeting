@@ -1,107 +1,108 @@
 @font-face{
-    font-family: AvenirHeavy;
-    src : url('/assets/font/Avenir Heavy.ttf')
+  font-family: AvenirHeavy;
+  src : url('/assets/font/Avenir Heavy.ttf')
 }
 @font-face{
-    font-family: AvenirMedium;
-    src : url('/assets/font/Avenir-Medium.ttf')
+  font-family: AvenirMedium;
+  src : url('/assets/font/Avenir-Medium.ttf')
 }
 @font-face{
-    font-family: Avenirlight;
-    src : url('/assets/font/avenirltstd-light.otf')
+  font-family: Avenirlight;
+  src : url('/assets/font/avenirltstd-light.otf')
 }
 ion-content
 {
-    --padding-start: 1.25rem;
-    --padding-end: 1.25rem;
-    --padding-top: 1.25rem;
+  --padding-start: 1.25rem;
+  --padding-end: 1.25rem;
+  --padding-top: 1.25rem;
 }
 h1
 {
-    color: #333333;
-    font-family: AvenirHeavy;
-    margin-bottom: 1.25rem;
+  color: #333333;
+  font-family: AvenirHeavy;
+  margin-bottom: 1.25rem;
 }
 .btn_next
 {
-    --background: #77BDF0;
-    --color: #ffffff;
-    font-family: AvenirHeavy;
-    width: 90%;
-    margin-left: 5%;
-    margin-top: 10.625rem;
-    --background-activated: #77BDF0;
-    --color-activated: #ffffff;
+  --background: #77BDF0;
+  --color: #ffffff;
+  font-family: AvenirHeavy;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 10.625rem;
+  --background-activated: #77BDF0;
+  --color-activated: #ffffff;
 }
 .btn_skip
 {
-    --color: #555555;
-    font-family: AvenirMedium;
-    --background: transparent;
-    --box-shadow: none;
-    --background-activated: transparent;
-    --color-activated: #555555;
-    width: 30%;
-    margin-left: 35%;
-    margin-top: 1.875rem;
-    margin-bottom: 3.125rem;
-    text-decoration: underline;
+  --color: #555555;
+  font-family: AvenirMedium;
+  --background: transparent;
+  --box-shadow: none;
+  --background-activated: transparent;
+  --color-activated: #555555;
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 1.875rem;
+  margin-bottom: 3.125rem;
+  text-decoration: underline;
 }
 ion-select
 {
-    border-radius: 6px;
-    border: 1px solid #E3E3E3;
-    color: #555555;
-    font-family: AvenirMedium;
-    font-size: 1rem;
-    --placeholder-font-weight: 900;
-    --placeholder-color: #555555;
-    width: 100%;
-    --padding-end: 1.5625rem;
-    --padding-start: 1.5625rem;
-    background-color: #F7F8F7;
+  border-radius: 6px;
+  border: 1px solid #E3E3E3;
+  color: #555555;
+  font-family: AvenirMedium;
+  font-size: 1rem;
+  --placeholder-font-weight: 900;
+  --placeholder-color: #555555;
+  --placeholder-opacity: 1;
+  width: 100%;
+  --padding-end: 1.5625rem;
+  --padding-start: 1.5625rem;
+  background-color: #F7F8F7;
 }
 .btn_add
 {
-    --color: #555555;
-    font-family: AvenirMedium;
-    --background: transparent;
-    --box-shadow: none;
-    --background-activated: transparent;
-    --color-activated: #555555;
-    width: 30%;
-    margin-left: 35%;
+  --color: #555555;
+  font-family: AvenirMedium;
+  --background: transparent;
+  --box-shadow: none;
+  --background-activated: transparent;
+  --color-activated: #555555;
+  width: 30%;
+  margin-left: 35%;
 }
 .card-terms
 {
-    margin-left: 0px;
-    margin-right: 0px;
-    box-shadow: none;
-    border-radius: 0px;
-    margin-bottom: 12px;
-    ion-card-header
+  margin-left: 0px;
+  margin-right: 0px;
+  box-shadow: none;
+  border-radius: 0px;
+  margin-bottom: 12px;
+  ion-card-header
+  {
+    ion-card-title
     {
-        ion-card-title
-        {
-            display: flex;
-            align-items: center;
-            color: #000000;
-            font-family: Avenirlight;
-            font-size: 22px;
-            .img-corona
-            {
-                width: 27px;
-                height: 27px;
-                margin-right: 17px;
-            }
-        }
+      display: flex;
+      align-items: center;
+      color: #000000;
+      font-family: Avenirlight;
+      font-size: 22px;
+      .img-corona
+      {
+        width: 27px;
+        height: 27px;
+        margin-right: 17px;
+      }
     }
-    ion-card-content
-    {
-        color: #555555;
-        font-family: AvenirMedium;
-        font-size: 18px;
-    }
+  }
+  ion-card-content
+  {
+    color: #555555;
+    font-family: AvenirMedium;
+    font-size: 18px;
+  }
 }
 @media (min-width: 411px)
 {

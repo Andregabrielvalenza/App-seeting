@@ -1,71 +1,71 @@
 @font-face{
-    font-family: AvenirHeavy;
-    src : url('/assets/font/Avenir Heavy.ttf')
+  font-family: AvenirHeavy;
+  src : url('/assets/font/Avenir Heavy.ttf')
 }
 @font-face{
-    font-family: AvenirMedium;
-    src : url('/assets/font/Avenir-Medium.ttf')
+  font-family: AvenirMedium;
+  src : url('/assets/font/Avenir-Medium.ttf')
 }
 ion-content
 {
-    --padding-start: 1.25rem;
-    --padding-end: 1.25rem;
-    --padding-top: 1.25rem;
+  --padding-start: 1.25rem;
+  --padding-end: 1.25rem;
+  --padding-top: 1.25rem;
 }
 h1
 {
-    color: #333333;
-    font-family: AvenirHeavy;
-    margin-bottom: 40px;
+  color: #333333;
+  font-family: AvenirHeavy;
+  margin-bottom: 40px;
 }
 .btn_blanco
 {
-    --border-radius: 8px;
-    --background: #FFFFFF;
-    --border-color: #E6E6E6;
-    --color: #555555;
-    font-family: AvenirMedium;
-    --border-style: solid;
-    --border-width: 1px;
-    margin-right: 5px;
-    --background-activated:  #FFFFFF;
+  --border-radius: 8px;
+  --background: #FFFFFF;
+  --border-color: #E6E6E6;
+  --color: #555555;
+  font-family: AvenirMedium;
+  --border-style: solid;
+  --border-width: 1px;
+  margin-right: 5px;
+  --background-activated:  #FFFFFF;
 }
 .btn_activo
 {
-    --border-radius: 8px;
-    --background: #77BDF0;
-    --border-color: #FFFFFF;
-    --color: #FFFFFF;
-    font-family: AvenirMedium;
-    --border-style: solid;
-    --border-width: 1px;
-    margin-right: 5px;
-    --background-activated:  #77BDF0;
+  --border-radius: 8px;
+  --background: #77BDF0;
+  --border-color: #FFFFFF;
+  --color: #FFFFFF;
+  font-family: AvenirMedium;
+  --border-style: solid;
+  --border-width: 1px;
+  margin-right: 5px;
+  --background-activated:  #77BDF0;
 }
 .btn_next
 {
-    --background: #77BDF0;
-    --color: #ffffff;
-    font-family: AvenirHeavy;
-    width: 90%;
-    margin-left: 5%;
-    margin-top: 1.5625rem;
-    --background-activated: #77BDF0;
-    --color-activated: #ffffff;
+  --background: #77BDF0;
+  --color: #ffffff;
+  font-family: AvenirHeavy;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 1.5625rem;
+  --background-activated: #77BDF0;
+  --color-activated: #ffffff;
 }
 .btn_skip
 {
-    --color: #555555;
-    font-family: AvenirMedium;
-    --background: transparent;
-    --box-shadow: none;
-    --background-activated: transparent;
-    --color-activated: #555555;
-    width: 30%;
-    margin-left: 35%;
-    margin-top: 1.875rem;
-    margin-bottom: 3.125rem;
-    text-decoration: underline;
+  --color: #555555;
+  font-family: AvenirMedium;
+  --background: transparent;
+  --box-shadow: none;
+  --background-activated: transparent;
+  --color-activated: #555555;
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 1.875rem;
+  margin-bottom: 3.125rem;
+  text-decoration: underline;
 }
 @media (min-width: 411px)
 {

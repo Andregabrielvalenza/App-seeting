@@ -49,6 +49,7 @@ h1
         --padding-bottom: 0px;
         --padding-top: 0px;
         --placeholder-font-weight: 900;
+        --placeholder-opacity: 1;
     }
     .icon-buscador
     {
@@ -90,6 +91,7 @@ h1
             width: 100%;
             --padding-start: 0px;
             --placeholder-color: #555555;
+            --placeholder-opacity: 1;
             font-family: AvenirMedium;
             color: #555555;
             --placeholder-font-weight: 900;
@@ -163,6 +165,10 @@ ion-footer
     align-items: center;
     flex-wrap: wrap;
     box-shadow: 0px -3px 6px #00000029;
+    .btn-activo-footer
+    {
+        --background: #F5E9D8 !important;
+    }
     .btn-footer
     {
         --background: transparent;
@@ -171,6 +177,8 @@ ion-footer
         --background-activated: transparent;
         --box-shadow: none;
         position: relative;
+        height: 100%;
+        --border-radius: 0px;
         .badge-chat
         {
             position: absolute;

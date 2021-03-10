@@ -1,0 +1,330 @@
+@font-face{
+    font-family: AvenirHeavy;
+    src : url('/assets/font/Avenir Heavy.ttf')
+}
+@font-face{
+    font-family: AvenirMedium;
+    src : url('/assets/font/Avenir-Medium.ttf')
+}
+.grid-pagging
+{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.iocon-close
+{
+    position: absolute;
+    left: 20px;
+    font-size: 35px;
+    top: 20px;
+    color: #7D7D7D;
+}
+h1
+{
+    color: #333333;
+    font-family: AvenirHeavy;
+    margin-top: 30px;
+    font-size: 21px;
+}
+ion-list
+{
+    margin-top: 5%;
+}
+ion-item
+{
+    --padding-start: 0px;
+    --inner-padding-end: 0px;
+    ion-radio
+    {
+        margin-left: 0px;
+        margin-right: 15px;
+        --color-checked: #CB9229;
+        --color: #E3E3E3;
+    }
+    ion-label
+    {
+        font-family: AvenirMedium;
+        font-size: 18px;
+    }
+    .input-descri
+    {
+        --color: #555555;
+        font-family: AvenirMedium;
+        --placeholder-color: #555555;
+        border-bottom: 1px solid #E3E3E3;
+        height: 45px;
+        --placeholder-opacity: 1;
+    }
+    ion-range
+    {
+        --bar-background: #EDEDED;
+        --bar-background-active: #D0A963;
+        --pin-color: #D0A963;
+        --knob-box-shadow: 0px 3px 6px #00000029;
+        --knob-border: 1px solid #DDDDDD;
+        --pin-color: #333333;
+        font-family: AvenirMedium;
+        --bar-height: 5px;
+        --knob-size: 16px;
+    }
+    .checbox-talla
+    {
+        --border-color: #E3E3E3;
+        --border-style: solid;
+        --border-width: 1px;
+        margin-right: 10px;
+        --background-checked: #CB9229;
+        --border-color-checked: #CB9229;
+        --size: 25px;
+    }
+    .label-chec
+    {
+        color: #333333;
+        font-family: AvenirMedium;
+    }
+    .label-input-estudias
+    {
+        color: #555555;
+        font-size: 20px;
+        font-family: AvenirMedium;
+    }
+    .input-estudias
+    {
+        --color: #555555;
+        font-family: AvenirMedium;
+        --placeholder-color: #555555;
+        border-bottom: 1px solid #E3E3E3;
+        height: 45px;
+        --padding-bottom: 1px;
+        margin-top: 0px;
+        --placeholder-opacity: 1;
+    }
+}
+ion-item:hover .label-input-estudias
+{
+    color: #CB9229;
+}
+ion-item:hover .input-estudias
+{
+    margin-top: 4px;
+    border-bottom: 1px solid #CB9229;
+}
+ion-searchbar
+{
+    --background: #F6F6F6;
+    font-family: AvenirMedium;
+    --placeholder-color: #9D9D9D;
+    --placeholder-font-weight: 600;
+    --color: #9D9D9D;
+    --icon-color: #010101;
+    margin-top: 50px;
+    --border-radius:  8px;
+    --box-shadow: none;
+}
+ion-note
+{
+    margin: 0px;
+    padding: 5px 20px;
+    border-radius: 24px;
+    font-family: AvenirMedium;
+    font-size: 25px;
+    --color: #333333;
+}
+.row-top
+{
+    margin-top: 8%;
+    .col-note-bottom
+    {
+        margin-top: 25px;
+    }
+}
+.p-contador
+{
+    font-family: AvenirMedium;
+    color: #555555;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    text-align: end;
+}
+.item-top
+{
+    margin-top: 8%;
+}
+.colo-plomo
+{
+    color: #747275;
+    font-family: AvenirMedium;
+}
+.cardopiniones
+{
+    margin: 0px;
+    margin-bottom: 15px;
+    background: #F7F8F7;
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    height: 150px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    .p-card-opciones
+    {
+        color: #333333;
+        margin: 0px;
+        font-family: AvenirMedium;
+        font-size: 23px;
+        text-align: center;
+    }
+}
+.div-card-opciones
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.col-none
+{
+    display: none;
+}
+.btn-verrifica-foto
+{
+    --background: #77BDF0;
+    --color: #fff;
+    text-transform: none;
+    font-family: AvenirMedium;
+    font-size: 16px;
+    height: 50px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 30px;
+    --box-shadow: none;
+    .icon-cicre-chec
+    {
+        font-size: 28px;
+        margin-right: 10px;
+    }
+}
+ion-footer
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    ion-progress-bar
+    {
+        width: 35%;
+        margin-left: 32.5%;
+        --background: #EDEDED;
+        --progress-background: #CB9229;
+        border-radius: 5px;
+        height: 8px;
+    }
+    .btn-cicre-left
+    {
+        position: absolute;
+        left: 20px;
+        --padding-start: 0px;
+        --padding-end: 0px;
+        --background: #fff;
+        --box-shadow: 0px 6px 12px #00000029;
+        --border-radius: 50%;
+        z-index: 1;
+        margin: 0px;
+        width: 45px;
+        height: 45px;
+        .icon-left-rigt-footer
+        {
+            color: #707070;
+            font-size: 30px;
+        }
+    }
+    .btn-cicre-right
+    {
+        position: absolute;
+        right: 20px;
+        --padding-start: 0px;
+        --padding-end: 0px;
+        --background: #fff;
+        --box-shadow: 0px 6px 12px #00000029;
+        --border-radius: 50%;
+        z-index: 1;
+        margin: 0px;
+        width: 45px;
+        height: 45px;
+        .icon-left-rigt-footer
+        {
+            color: #707070;
+            font-size: 30px;
+        }
+    }
+}
+@media(min-width: 480px)
+{
+    ion-footer
+    {
+        .btn-cicre-left
+        {
+            left: 30px;
+        }
+        .btn-cicre-right
+        {
+            right: 30px;
+        }
+    }
+}
+@media(min-width: 540px)
+{
+    .grid-pagging
+    {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    ion-footer
+    {
+        .btn-cicre-left
+        {
+            left: 40px;
+        }
+        .btn-cicre-right
+        {
+            right: 40px;
+        }
+    }
+}
+@media(min-width: 768px)
+{
+    .grid-pagging
+    {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    ion-footer
+    {
+        .btn-cicre-left
+        {
+            left: 60px;
+        }
+        .btn-cicre-right
+        {
+            right: 60px;
+        }
+    }
+}
+@media(min-width: 1024px)
+{
+    .grid-pagging
+    {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    .cardopiniones
+    {
+        width: 49%;
+    }
+    .div-card-opciones
+    {
+        justify-content: space-between;
+    }
+}

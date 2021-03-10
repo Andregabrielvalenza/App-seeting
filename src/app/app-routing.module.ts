@@ -130,7 +130,51 @@ const routes: Routes = [
   {
     path: 'checkout',
     loadChildren: () => import('./checkout/checkout.module').then( m => m.CheckoutPageModule)
+  },  {
+    path: 'new-login',
+    loadChildren: () => import('./new-login/new-login.module').then( m => m.NewLoginPageModule)
   },
+  {
+    path: 'new-resgitro',
+    loadChildren: () => import('./new-resgitro/new-resgitro.module').then( m => m.NewResgitroPageModule)
+  },
+  {
+    path: 'new-ubicacion',
+    loadChildren: () => import('./new-ubicacion/new-ubicacion.module').then( m => m.NewUbicacionPageModule)
+  },
+  {
+    path: 'new-ubicacion-uno',
+    loadChildren: () => import('./new-ubicacion-uno/new-ubicacion-uno.module').then( m => m.NewUbicacionUnoPageModule)
+  },
+  {
+    path: 'new-preguntdas-registro',
+    loadChildren: () => import('./new-preguntdas-registro/new-preguntdas-registro.module').then( m => m.NewPreguntdasRegistroPageModule)
+  },
+  {
+    path: 'favorites',
+    loadChildren: () => import('./favorites/favorites.module').then( m => m.FavoritesPageModule)
+  },
+  {
+    path: 'permiso-ubicacion',
+    loadChildren: () => import('./permiso-ubicacion/permiso-ubicacion.module').then( m => m.PermisoUbicacionPageModule)
+  },
+  {
+    path: 'inbox-message-uno',
+    loadChildren: () => import('./inbox-message-uno/inbox-message-uno.module').then( m => m.InboxMessageUnoPageModule)
+  },
+  {
+    path: 'inbox-message-dos',
+    loadChildren: () => import('./inbox-message-dos/inbox-message-dos.module').then( m => m.InboxMessageDosPageModule)
+  },
+  {
+    path: 'permiso-foto',
+    loadChildren: () => import('./permiso-foto/permiso-foto.module').then( m => m.PermisoFotoPageModule)
+  },
+  {
+    path: 'perfil',
+    loadChildren: () => import('./perfil/perfil.module').then( m => m.PerfilPageModule)
+  },
+
 ];
 
 @NgModule({
